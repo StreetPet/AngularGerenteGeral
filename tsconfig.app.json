@@ -1,7 +1,9 @@
 {
+  "compileOnSave": false,
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "../../out-tsc/app",
+    "emitDecoratorMetadata": true,
+    "target": "es5",
     "types": []
   },
   "files": [
